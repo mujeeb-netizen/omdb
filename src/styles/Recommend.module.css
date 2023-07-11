@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.img {
+  width: 350px;
+  height: 500px; 
+  object-fit: contain; 
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-start;
+  align-items: end;
+  cursor: pointer;
+}
+
+.container_item{
+  box-sizing: border-box;
+  margin-block: 10px;
+  margin-inline: 20px;
+}

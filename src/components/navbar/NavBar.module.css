@@ -1,0 +1,44 @@
+.navbar * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #326660;
+  color: #fff;
+}
+
+.navLinks a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.menu {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+
+.menu li:hover {
+  background-color: #3c7d70;
+}
+
+.menu li {
+  padding: 0.5rem 1rem;
+  list-style: none;
+  transition: 300ms ease;
+  border-radius: 5px;
+}
+
+.menu:last-child {
+  margin-right: 1rem;
+}
